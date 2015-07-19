@@ -3,8 +3,8 @@ var diff = require('../index.js');
 var a, b, delta, c ;
 
 //testing primitive data type
-a = 3 ;
-b = 10;
+a = 5 ;
+b = 2;
 delta = diff.getDiff(a, b); 
 c = diff.applyDiff(a, delta);
 
@@ -16,12 +16,12 @@ c = diff.applyDiff(a, delta);
 
 //testing object 
 a = {
-    a: '10',
-    b: '20'
+    a: '21',
+    b: '22'
 } ;
 b = {
-    a: '10',
-    b: '40'
+    a: '21',
+    b: '50'
 } ;
 delta = diff.getDiff(a, b); 
 c = diff.applyDiff(a, delta);
@@ -36,7 +36,7 @@ a = {
         c2 : {
             c21: 'hello'
         },
-        c3: 'India'
+        c3: 'Kellton'
     } 
 } ;
 b = {
@@ -48,7 +48,7 @@ b = {
             c21: 'hi',
             c22: 'welcome'
         },
-        c3: 'cosmic' 
+        c3: 'Kellto' 
     } 
 } ;
 
