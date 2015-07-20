@@ -27,9 +27,8 @@ delta = diff.getDiff(a, b);
 c = diff.applyDiff(a, delta);
 
 //testing complex deep object
-var fn = function(){}; //two function can be equal if they hold same reference
 a = {
-    a: fn,
+    a: 10,
     b: [1,2,[3,4]],
     c: {
         c1 : 20,
@@ -40,7 +39,7 @@ a = {
     } 
 } ;
 b = {
-    a: fn,
+    a: 12,
     b: [1,2,[4]],
     c: {
         c1 : 20,
@@ -48,7 +47,7 @@ b = {
             c21: 'hi',
             c22: 'welcome'
         },
-        c3: 'Kellto' 
+        c3: 'Kellton' 
     } 
 } ;
 
