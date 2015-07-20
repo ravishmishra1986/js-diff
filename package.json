@@ -1,13 +1,13 @@
 {
-  "name": "recursive-diff",
-  "version": "0.1.1",
-  "description": "Find diff between any two variables where variables be any valid JavaScript data type like string, numeric, array or object",
+  "name": "js-diff",
+  "version": "1.0",
+  "description": "Find diff between any two variables where variables be any valid JavaScript data type like string, numeric, array, object",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "test.js"
+    "test": "testDiff.js"
   },
   "repository": {
     "type": "git",
@@ -16,24 +16,11 @@
   "keywords": [
     "deep",
     "diff",
-    "deep",
     "difference",
     "object",
     "diff",
     "object",
     "difference",
-    "recursive",
-    "diff",
-    "recursive",
-    "difference",
-    "tree",
-    "diff",
-    "tree",
-    "difference",
-    "variable",
-    "difference",
-    "track",
-    "change"
   ],
   "author": "Ravish Kumar Mishra<ravish.varanasi@gmail.com>",
   "license": "",
