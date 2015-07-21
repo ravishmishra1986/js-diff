@@ -1,6 +1,6 @@
 # Js-Diff
 
-##### A JavaScript library to calculate difference between two js variables(variables cab be number, string, Boolean, array or object)
+##### A JavaScript library to calculate difference between two js variables(variables can be number, string, Boolean, array or object)
 --------
 
 The api returns a standard diff object having key, value pair where each key represents a '/' separated path and each value represents a change object. Path denotes where the changes has been made against the original object and change denotes the nature of change ie: which operation(add/update/delete) has been performed and what is it's new value.
